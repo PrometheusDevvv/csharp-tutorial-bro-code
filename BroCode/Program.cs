@@ -5,6 +5,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        ArithmeticOperators output = new ArithmeticOperators();
+        MathClass output = new MathClass();
     }
 }   
