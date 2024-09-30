@@ -6,33 +6,35 @@
         {
             /* A variable is like a container that holds a value. */
 
-            // Declaration: creating a variable
-            int x; // declaring a variable x
-            x = 123; // assigning value 123 to x
+            // Declaration of an integer variable 'x' without assigning a value.
+            int x;
+            // Assigning the value 123 to the variable 'x'.
+            x = 123;
 
-            // Declaration + Initialization: creating and giving value at the same time
-            int y = 321; // y holds the value 321
+            // Declaration and initialization of the variable 'y' in one step.
+            int y = 321;
 
-            // Adding two variables
-            int z = x + y; // z holds the result of x + y
+            // Adding the values of 'x' and 'y' and storing the result in 'z'.
+            int z = x + y;
 
-            // Different types of variables
-            int age = 21; // age holds a whole number
-            double height = 300.5; // height holds a decimal number
-            bool alive = true; // alive holds true or false
-            char symbol = '@'; // symbol holds a single character
-            string name = "Bro"; // name holds text
+            // Declaring different types of variables:
+            int age = 21;           // Integer: a whole number to store age.
+            double height = 300.5;  // Double: to store height as a decimal number.
+            bool alive = true;      // Boolean: stores true or false values.
+            char symbol = '@';      // Char: stores a single character.
+            string name = "Bro";    // String: stores text.
 
-            // Combining two variables
-            string username = symbol + name; // username combines symbol and name
+            // Concatenating the character symbol and the name into a new string variable.
+            string username = symbol + name;
 
-            // Output to console
-            Console.WriteLine("Your Age Is " + age); // prints age
-            Console.WriteLine("Your Height Is " + height + " CM"); // prints height
-            Console.WriteLine("Are You Alive? " + alive); // prints if alive
-            Console.WriteLine("Your Symbol Is " + symbol); // prints symbol
-            Console.WriteLine("Hello " + name); // prints name
-            Console.WriteLine("Your Username Is " + username); // prints username
+            // Printing each variable's value to the console.
+            Console.WriteLine("Your Age Is " + age);              // Outputs the age value.
+            Console.WriteLine("Your Height Is " + height + " CM"); // Outputs the height value with "CM" appended.
+            Console.WriteLine("Are You Alive? " + alive);          // Outputs the boolean value (true/false).
+            Console.WriteLine("Your Symbol Is " + symbol);         // Outputs the symbol character.
+            Console.WriteLine("Hello " + name);                    // Outputs the name.
+            Console.WriteLine("Your Username Is " + username);     // Outputs the combined username.
         }
     }
 }
+    
