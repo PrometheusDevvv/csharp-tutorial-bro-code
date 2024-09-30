@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace BroCode
 {
     internal class MathClass
