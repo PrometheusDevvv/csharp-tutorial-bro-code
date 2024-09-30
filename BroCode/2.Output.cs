@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace BroCode;
+﻿namespace BroCode;
 
 internal class Output
 {

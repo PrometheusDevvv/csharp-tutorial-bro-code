@@ -5,6 +5,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Output output = new Output();
+        Variables output = new Variables();
     }
 }   
