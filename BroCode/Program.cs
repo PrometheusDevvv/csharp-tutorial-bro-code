@@ -5,6 +5,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        NumberGuessingGame output = new NumberGuessingGame();
+        RockPaperScissorsGame output = new RockPaperScissorsGame();
     }
 }   
